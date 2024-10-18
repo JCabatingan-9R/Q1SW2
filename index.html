@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		
+		body {
+			background-image: url(https://pixabay.com/illustrations/landscape-pastel-background-7283516/);
+			text-align: center;
+			color: floralwhite;
+		}
+
+		.header {
+			color: floralwhite;
+			background-color: rgba(61,146,180,0.63);
+			font-family: "Playright CU", cursive;
+			padding: 40px;
+		}
+
+		.login {
+			margin: 20px 30px;
+			padding: 40px;
+			color:seagreen;
+			background-color: rgba(114,174,168,0.24);
+			margin-left: 35%;
+			margin-right: 35%;
+			text-align: left;
+			border: 5px double #059600;
+			border-radius: 20px;
+		}
+
+		.footer {
+			color: floralwhite;
+			background-color: rgba(114,174,168,0.74);
+			font-family: "Playright CU", cursive;
+			padding: 30px;
+			position: fixed;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+		}
+
+		.input {
+			height: 25px;
+		}
+
+		.submit {
+			width: 80px;
+			height: 35px;
+			background-color: seagreen;
+			color: whitesmoke;
+		}
+
+		.ruby {
+			color: mediumvioletred;
+		}
+
+		img {
+			vertical-align: middle;
+			width: 70px;
+			border-radius: 70px;
+			margin: auto;
+			border-color: seagreen;
+		}
+
+		h2 {
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Welcome to My Website</h1>
+	</div>
+
+	<div class="login">
+		<form>
+				<center>
+					<img src="https://cdn.pixabay.com/photo/2017/03/21/02/00/user-2160923_1280.png" class="avatar">
+				</center>
+				<h2>Login</h2>
+				<br />
+				<label for="username">Username: </label>
+				<br />
+				<center>
+					<input id= "username" type="text" name="pass" size="51" class="input">
+				</center>
+				<br />
+				<label for="password">Password: </label>
+				<br />
+				<center><input id= "password" type="password" name="pass" size="51" class="input">
+				<br />
+				<br />	
+					<input type="submit" value="Login" class="submit">
+				</center>
+		</form>
+	</div>
+
+
+	<div class="footer">
+		<h1>Jade Louisse Castro Cabatingan | <span class="ruby">9-Ruby</span></h1>
+	</div>
+</body>
+</html>
